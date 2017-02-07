@@ -1,0 +1,19 @@
+If a brand new Arduino LCD Keyboard Shield is not working (not displaying
+anything on the display) it is very likely, that is not broken - it just
+needs a little adjustment.
+
+The solution lies in adjusting the contrast of the LCD display via the
+potentiometer on the shield.
+
+If you have potentiometer model "3362"
+    turn it slowly to the left, until you see the text.
+    
+If you have potentiometer model "3296"
+    you have to make several tens of turns to the right, until you see the text.
+    
+To check, if your LCD Keypad Shield is working, you can use source code on this
+page:
+    https://www.dfrobot.com/wiki/index.php/LCD_KeyPad_Shield_For_Arduino_SKU:_DFR0009
+    
+Sources:
+my own experience
