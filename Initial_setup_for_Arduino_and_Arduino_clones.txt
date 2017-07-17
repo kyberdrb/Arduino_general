@@ -1,0 +1,30 @@
+Install driver for Arduino and Arduino clones
+
+-Win+R and type  
+  devmgmt.msc
+
+-Check if the Arduino is recognized - the icon shouldn't have a exclamation mark. If arduino device is not recognized, download driver from the link below  
+http://robojax.com/products/files/arduino_robojax_ch341ser.zip
+
+-Unzip (use an arbitrary extraction program e.g. WinRAR, WinZip, ...)..
+For the sake of simplicity you can download and install 7-Zip:  
+http://www.7-zip.org/a/7z1700-x64.exe
+
+-Return back to Device Manager and update driver from within it:
+  -Right click on Arduino device->Update driver software
+  -Select "Browse my computer for driver software"
+  -Click on "Browse" button and select folder, in which you extracted arduino robojax driver.
+  -Click on "Next"
+  -Wait until the installation finishes
+  -After that, close Device Manager
+  
+-Run Arduino IDE
+-Connect Arduino to the computer
+-Select the COM port with Arduino:
+  -Go to Tools->Port
+  -Select Arduino port
+-Test the Arduino:
+  -Go to File->Examples->Basics->Blink
+  -Upload it to Arduino. The LED should be blinking.
+
+Done :D
